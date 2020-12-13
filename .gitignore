@@ -1,0 +1,7 @@
+#Ignore everything
+/*
+
+#Don't ignore config and scripts folder
+!/.gitignore
+!/config/
+!/scripts/
