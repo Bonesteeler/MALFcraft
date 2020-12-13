@@ -1,8 +1,9 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
-import mods.roots.Mortar;
+import mods.astralsorcery.Altar;
 import mods.tconstruct.Drying;
+import mods.roots.Mortar;
 
 recipes.removeShaped(<botania:laputashard>);
 recipes.removeShaped(<botania:terrapick>);
@@ -28,3 +29,5 @@ recipes.remove(<extrautils2:opinium:8>);
 val portal_core = <extrautils2:opinium:8>;
 recipes.addShaped("NewCore",portal_core, [[<arcanearchives:raw_quartz_cluster>,<thaumcraft:salis_mundus>,<totemic:eagle_drops>],
 [<naturesaura:effect_powder>,<waystones:warp_stone>,<astralsorcery:itemusabledust>],[<botania:manaresource:8>,<roots:infernal_bulb>,<tconstruct:nuggets:2>]]);
+
+Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/lens_grow");
