@@ -31,6 +31,7 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe("Malfcraft:shaped/internal/alta
 // Glass Lens
 val GlassLens = (<astralsorcery:itemcraftingcomponent:3>);
 recipes.remove(GlassLens);
+mods.botania.ManaInfusion.addInfusion(GlassLens, <stevescarts:modulecomponents:5>, 1000);
 mods.astralsorcery.StarlightInfusion.addInfusion(<stevescarts:modulecomponents:5>, GlassLens, false, 0.3, 200);
 
 // Starlight Infuser Change
